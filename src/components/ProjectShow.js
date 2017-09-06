@@ -119,7 +119,7 @@ class ProjectShow extends Component {
     let button = '';
     const project = _.find(projects, p => p.pid === this.props.match.params.id)
 
-    var sharedProjectValuation = (Number(member.stock_share.replace('%','') / 100) * project.valuation);
+    var sharedProjectValuation = Math.round(Number(member.stock_share.replace('%','') / 100) * project.valuation);
 
     if(!member.uid && !this.hasAlreadyRole()) {
       button = (
