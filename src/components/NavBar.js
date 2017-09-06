@@ -73,7 +73,7 @@ class NavBar extends Component {
 
           <div className="navbar-lavel-area">
             <label>現在の総評価額</label>
-            <label className="label-valuation">¥ {(state.currentUser.valuation ? state.currentUser.valuation : 0).toString().replace(/(\d)(?=(\d{3})+$)/g,'$1,')}</label>
+            <label className="label-valuation">¥ {(state.currentUser.valuation ? Math.round(state.currentUser.valuation) : 0).toString().replace(/(\d)(?=(\d{3})+$)/g,'$1,')}</label>
           </div>
 
           {currentUserBlock}
