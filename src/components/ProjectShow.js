@@ -11,6 +11,7 @@ import {observer} from "mobx-react";
 import projects from '../store/projects';
 import state from '../store/state';
 import users from '../store/user';
+import {NotificationManager} from 'react-notifications'
 
 const dummyData = [
   {name: "2017/7/6", uv: 400, pv: 2400, amt: 2400},
@@ -184,6 +185,7 @@ class ProjectShow extends Component {
   }
 
   joinAsMember(event, memberIndex, spv) {
+    NotificationManager.warning(`${Number(spv).toLocaleString()}円　増えました`,`参加完了しました`, 3000);
     event.preventDefault();
     const project = _.find(projects, p => p.pid === this.props.match.params.id)
     project.members[memberIndex].uid = state.currentUser.uid;

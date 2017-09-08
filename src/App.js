@@ -6,6 +6,7 @@ import {
   BrowserRouter as Router,
 } from 'react-router-dom'
 
+import 'react-notifications/lib/notifications.css';
 import Clock from './components/Clock'
 import Employee from './components/Employee'
 import Home from './components/Home'
@@ -14,6 +15,7 @@ import NavBar from './components/NavBar'
 import ProjectIndex from './components/ProjectIndex'
 import ProjectNew from './components/ProjectNew'
 import ProjectShow from './components/ProjectShow'
+import {NotificationContainer} from 'react-notifications'
 // import createHistory from 'history/createBrowserHistory';
 import {observer} from "mobx-react";
 import state from './store/state';
@@ -47,6 +49,7 @@ class App extends Component {
           </div>
 
           <Clock></Clock>
+          <NotificationContainer />
         </div>
       </Router>
     )

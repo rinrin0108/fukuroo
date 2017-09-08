@@ -7,6 +7,7 @@ import LoginButton from './LoginButton'
 import {observer} from "mobx-react";
 import projects from '../store/projects';
 import state from '../store/state'
+import {NotificationManager} from 'react-notifications'
 
 @observer
 class Home extends Component {

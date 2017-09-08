@@ -1,0 +1,68 @@
+[debug] [2017-07-30T04:25:59.841Z] ----------------------------------------------------------------------
+[debug] [2017-07-30T04:25:59.843Z] Command:      /Users/takashi/.nodebrew/node/v7.1.0/bin/node /Users/takashi/.nodebrew/current/bin/firebase deploy
+[debug] [2017-07-30T04:25:59.844Z] CLI Version:  3.9.1
+[debug] [2017-07-30T04:25:59.844Z] Platform:     darwin
+[debug] [2017-07-30T04:25:59.844Z] Node Version: v7.1.0
+[debug] [2017-07-30T04:25:59.844Z] Time:         Sun Jul 30 2017 13:25:59 GMT+0900 (JST)
+[debug] [2017-07-30T04:25:59.844Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-30T04:25:59.860Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-30T04:25:59.860Z] > authorizing via signed-in user
+[debug] [2017-07-30T04:25:59.863Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fukuroo-e9a18  
+ Sun Jul 30 2017 13:25:59 GMT+0900 (JST)
+[debug] [2017-07-30T04:26:02.268Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-30T04:26:02.269Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fukuroo-e9a18/tokens  
+ Sun Jul 30 2017 13:26:02 GMT+0900 (JST)
+[debug] [2017-07-30T04:26:03.139Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-30T04:26:53.206Z] ----------------------------------------------------------------------
+[debug] [2017-07-30T04:26:53.209Z] Command:      /Users/takashi/.nodebrew/node/v7.1.0/bin/node /Users/takashi/.nodebrew/current/bin/firebase deploy
+[debug] [2017-07-30T04:26:53.209Z] CLI Version:  3.9.1
+[debug] [2017-07-30T04:26:53.209Z] Platform:     darwin
+[debug] [2017-07-30T04:26:53.209Z] Node Version: v7.1.0
+[debug] [2017-07-30T04:26:53.212Z] Time:         Sun Jul 30 2017 13:26:53 GMT+0900 (JST)
+[debug] [2017-07-30T04:26:53.212Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-30T04:26:53.234Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-30T04:26:53.234Z] > authorizing via signed-in user
+[debug] [2017-07-30T04:26:53.237Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fukuroo-e9a18  
+ Sun Jul 30 2017 13:26:53 GMT+0900 (JST)
+[debug] [2017-07-30T04:26:54.719Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-30T04:26:54.720Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fukuroo-e9a18/tokens  
+ Sun Jul 30 2017 13:26:54 GMT+0900 (JST)
+[debug] [2017-07-30T04:26:55.483Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'fukuroo-e9a18'...
+[info] 
+[info] i  deploying database, hosting
+[info] ✔  database: rules ready to deploy.
+[info] i  hosting: preparing build directory for upload...
+[debug] [2017-07-30T04:26:58.989Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/fukuroo-e9a18/uploads/-KqGjoDDwxQGq6Be-E-z?fileCount=47&message=  
+ Sun Jul 30 2017 13:26:58 GMT+0900 (JST)
+[debug] [2017-07-30T04:27:25.229Z] ----------------------------------------------------------------------
+[debug] [2017-07-30T04:27:25.231Z] Command:      /Users/takashi/.nodebrew/node/v7.1.0/bin/node /Users/takashi/.nodebrew/current/bin/firebase deploy
+[debug] [2017-07-30T04:27:25.232Z] CLI Version:  3.9.1
+[debug] [2017-07-30T04:27:25.232Z] Platform:     darwin
+[debug] [2017-07-30T04:27:25.232Z] Node Version: v7.1.0
+[debug] [2017-07-30T04:27:25.232Z] Time:         Sun Jul 30 2017 13:27:25 GMT+0900 (JST)
+[debug] [2017-07-30T04:27:25.232Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-30T04:27:25.243Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-30T04:27:25.243Z] > authorizing via signed-in user
+[debug] [2017-07-30T04:27:25.245Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fukuroo-e9a18  
+ Sun Jul 30 2017 13:27:25 GMT+0900 (JST)
+[debug] [2017-07-30T04:27:26.441Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-30T04:27:26.442Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fukuroo-e9a18/tokens  
+ Sun Jul 30 2017 13:27:26 GMT+0900 (JST)
+[debug] [2017-07-30T04:27:27.262Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-30T04:27:31.696Z] ----------------------------------------------------------------------
+[debug] [2017-07-30T04:27:31.698Z] Command:      /Users/takashi/.nodebrew/node/v7.1.0/bin/node /Users/takashi/.nodebrew/current/bin/firebase deploy
+[debug] [2017-07-30T04:27:31.699Z] CLI Version:  3.9.1
+[debug] [2017-07-30T04:27:31.699Z] Platform:     darwin
+[debug] [2017-07-30T04:27:31.699Z] Node Version: v7.1.0
+[debug] [2017-07-30T04:27:31.700Z] Time:         Sun Jul 30 2017 13:27:31 GMT+0900 (JST)
+[debug] [2017-07-30T04:27:31.700Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-30T04:27:31.710Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-30T04:27:31.710Z] > authorizing via signed-in user
+[debug] [2017-07-30T04:27:31.712Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fukuroo-e9a18  
+ Sun Jul 30 2017 13:27:31 GMT+0900 (JST)
