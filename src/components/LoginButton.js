@@ -17,7 +17,7 @@ provider.setCustomParameters({
 class LoginButton extends Component {
   constructor() {
     super();
-    
+
     this.state = {
       timeout: null
     }
@@ -84,11 +84,10 @@ class LoginButton extends Component {
       const credential = error.credential;
 
       console.error('error', errorCode, errorMessage, email, credential)
-      alert('ログイン失敗しました', errorMessage)
+      // alert('ログイン失敗しました', errorMessage)
     });
   }
 
 }
 
 export default LoginButton
-
