@@ -146,7 +146,7 @@ class ProjectShow extends Component {
             {this.renderUserByUid(member.uid)}<br/>
             役割 {member.role}<br/>
             報酬株 {member.stock_share}<br/>
-            現在評価額 ¥{sharedProjectValuation}
+            現在評価額 ¥{sharedProjectValuation.toString().replace(/(\d)(?=(\d{3})+$)/g,'$1,')}
           </div>
         </div>
 
